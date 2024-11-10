@@ -240,7 +240,7 @@ wheels = [
 [[package]]
 name = "noel-3d"
 version = "0.0.0"
-source = { virtual = "." }
+source = { editable = "." }
 
 [package.optional-dependencies]
 dev = [
