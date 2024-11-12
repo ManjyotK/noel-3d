@@ -255,6 +255,7 @@ name = "noel-3d"
 version = "0.0.0"
 source = { editable = "." }
 dependencies = [
+    { name = "matplotlib" },
     { name = "pydantic" },
 ]
 
@@ -265,6 +266,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "matplotlib", specifier = ">=3.9.2" },
     { name = "matplotlib", marker = "extra == 'dev'", specifier = ">=3.9.2" },
     { name = "pydantic", specifier = ">=2.9.2" },
 ]
